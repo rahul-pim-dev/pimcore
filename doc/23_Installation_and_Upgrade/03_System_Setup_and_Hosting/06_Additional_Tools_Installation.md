@@ -66,7 +66,7 @@ Please follow the steps on [https://www.chromium.org/getting-involved/download-c
 Add a new service as:
 ```dockerfile
     chrome:
-        image: browserless/chrome
+        image: ghcr.io/browserless/chromium
 ```
 and set accordingly:
 - config `pimcore.chromium.uri` value (e.g. `ws://chrome:3000/`)
